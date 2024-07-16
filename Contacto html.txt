@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de nosotros</title>
+    <link rel="stylesheet" href="Contacto css.css">
+</head>
+<body>
+
+    <div class="barra">
+        <a href="#inicio">Inicio</a>
+        <a href="#festividades">Festividades</a>
+        <a href="#contactos">Contactos</a>
+        <a href="#acerca">Acerca de nosotros</a>
+        <a href="#login">Login</a>
+    </div>
+    <form>
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+        </div>
+        <div>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido">
+        </div>
+        <div>
+            <label for="cedula">Cédula</label>
+            <input type="text" id="cedula" name="cedula">
+        </div>
+        <div>
+            <label for="correo">Correo</label>
+            <input type="email" id="correo" name="correo">
+        </div>
+        <div>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div>
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion">
+        </div>
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+</body>
+</html>
